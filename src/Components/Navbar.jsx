@@ -39,13 +39,13 @@ const  Navbar = () => {
             <div>
                 <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex mx-auto  ">
                     <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Servicesp">Home </Link>
+                        <Link to="/">Home </Link>
                     </li>
                     <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Projectsp">About us</Link>
+                        <Link to="/aboutp">About us</Link>
                     </li>
                     <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Aboutusp">All Courses</Link>
+                        <Link to="/allcoursesp">All Courses</Link>
                     </li>
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/Aboutusp">Blog Classic</Link>
@@ -54,7 +54,7 @@ const  Navbar = () => {
                         <Link to="/Aboutusp">Pages</Link>
                     </li>
                     <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Aboutusp">Contact</Link>
+                        <Link to="/contactp">Contact</Link>
                     </li>
                     
                 </ul>
@@ -92,13 +92,13 @@ const  Navbar = () => {
 
                 <ul className="flex flex-col p-4 my-6 gap-4 text-black">
                     <li className="p-4 border-l border-blue-600" onClick={() => { handleLinkClick() } }>
-                    <Link to="/Servicesp">Home</Link>
+                    <Link to="/">Home</Link>
                     </li>
                     <li className="p-4 border-l border-green-600" onClick={() => { handleLinkClick() } }>
-                        <Link to="/Projectsp">About Us</Link>
+                        <Link to="/aboutp">About Us</Link>
                     </li>
                     <li className="p-4 border-l border-red-600" onClick={() => { handleLinkClick() } }>
-                        <Link to="/Aboutusp">All Courses</Link> 
+                        <Link to="/allcoursesp">All Courses</Link> 
                     </li>
                     <li className="p-4 border-l border-red-600" onClick={() => { handleLinkClick() } }>
                         <Link to="/Aboutusp">Blog</Link> 
@@ -107,7 +107,7 @@ const  Navbar = () => {
                         <Link to="/Aboutusp">Pages</Link> 
                     </li>
                     <li className="p-4 border-l border-pink-600" onClick={() => { handleLinkClick() }}>
-                        <Link to="/Quotep">Contact</Link>
+                        <Link to="/contactp">Contact</Link>
                     </li>
                 </ul>
 

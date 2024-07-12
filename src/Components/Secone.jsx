@@ -23,7 +23,7 @@ const Secone = () => {
                          commodo viverra maecenas  vel facilisis.
                     </p>
             
-                    <button className="bg-emerald-500 text-white px-4 py-4 rounded-md mt-40 md:mt-10">
+                    <button className="bg-emerald-500 text-white px-4 py-4 rounded-md mt-20 md:mt-10">
                         <div className="flex">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mr-1">
                             <path strokeLinecap="round" strokeLinejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
