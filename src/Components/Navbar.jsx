@@ -111,7 +111,7 @@ const  Navbar = () => {
                     </li>
                 </ul>
 
-                <button className="py-2 flex px-2 ml-4 hover:underline hover:cursor-pointer bg-emerald-500 rounded-lg text-white" >
+                <button className="py-2 flex px-2 ml-4 hover:underline hover:cursor-pointer bg-[#925FE2] rounded-lg text-white" >
                     <Link to=""> 
                         <div className="flex">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mr-1">
