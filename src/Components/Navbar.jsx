@@ -27,17 +27,17 @@ const  Navbar = () => {
                 {/* <img className="w-40"  size={20} alt="logo" /> */}
                 <Link to="/">
                     <div className="flex align-middle ">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-7 font-semibold align-middle text-emerald-500 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-7 font-semibold align-middle text-gray-800  ">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
                         </svg>
 
-                        <h2 className=" font-semibold text-2xl  text-emerald-500">Starschoolz</h2>
+                        <h2 className=" font-semibold text-2xl  text-gray-800 ">Starschoolz</h2>
                     </div>
                 </Link>
             </div>
             
             <div>
-                <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex mx-auto  ">
+                <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex mx-auto text-gray-800   ">
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/">Home </Link>
                     </li>
@@ -61,8 +61,8 @@ const  Navbar = () => {
 
                 
             </div>
-            <button className="py-2 flex px-2 hover:underline hover:cursor-pointer bg-emerald-500 rounded-lg text-white" >
-                <Link to=""> 
+            <button className="py-2 flex px-2 hover:underline hover:cursor-pointer bg-[#925FE2] rounded-lg text-white" >
+                <Link to="http://127.0.0.1:8000/login/"> 
                     <div className="flex">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mr-1">
                         <path strokeLinecap="round" strokeLinejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -83,11 +83,11 @@ const  Navbar = () => {
             <div className={nav ? "fixed left-0 top-0 h-full w-[90%] ease-out duration-500 bg-white" : "fixed left-[-100%]"}>
 
                 <div className="flex align-middle mt-4 ml-2 ">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-7 text-emerald-500 font-semibold align-middle ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-7 text-gray-800 font-semibold align-middle ">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
                     </svg>
 
-                    <h2 className="text-emerald-500 font-semibold text-2xl">Starschoolz</h2>
+                    <h2 className="text-gray-800 font-semibold text-2xl">Starschoolz</h2>
                 </div>
 
                 <ul className="flex flex-col p-4 my-6 gap-4 text-black">

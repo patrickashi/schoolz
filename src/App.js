@@ -19,6 +19,7 @@ function App() {
             <Route path="/allcoursesp" element={<Allcoursesp />} />
             <Route path="/contactp" element={<Contactp />} />
           </Routes>
+          
         </div>
       </div>
     </Router>
