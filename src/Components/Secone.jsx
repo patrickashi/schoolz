@@ -12,7 +12,7 @@ const Secone = () => {
     }, []);
 
     return (
-        <div className=" w-full pt-8 pb-24 px-2 md:px-10 lg:px-16 bg-indigo-50">
+        <div className=" w-full pt-8 pb-24 px-2 md:px-10 lg:px-10 bg-indigo-50">
            <div className="flex flex-col md:flex-row justify-between items-center ">
                 <div className=" pt-20 px-2 md:px-10 lg:px-10 w-full md:w-120">
                     <h2 className={`text-3xl text-gray-800  md:text-4xl font-semibold ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Education is the best</h2>
