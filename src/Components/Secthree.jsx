@@ -1,23 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import './animations.css';
-import { useInView } from 'react-intersection-observer';
 import lovetolearn from "../Assets/lovetolearn.jpg";
 import arduino from "../Assets/Arduino.jpg";
 import books from "../Assets/books.jpg";
 
 const Secthree = () => {
-    const { ref, inView } = useInView({
-        triggerOnce: true, // Trigger animation only once
-        threshold: 0.1, // Adjust based on when you want the animation to start
-    });
+
 
     return(
         <div className='w-full pt-8 pb-24 px-2 md:px-10 lg:px-16 bg-indigo-50'>
             <div>
             
                 <div>
-                    <h2 className='px-2 text-4xl mt-6 text-start md:text-center'>Our Featured Courses</h2>
-                    <p className='px-2 md:px-10 py-4 text-start md:text-center'>
+                    <h2 className='px-2 text-4xl mt-10 text-start md:text-center'>Our Featured Courses</h2>
+                    <p className='px-2 md:px-10 py-4 text-start md:text-center mb-16 '>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt dolore magna aliqua. Quis
                         ipsum suspendisse ultrices gravida.
@@ -102,6 +98,18 @@ const Secthree = () => {
                         </p>
                         <p className='text-start mt-4 text-[#925FE2]'><span className='font-semibold text-gray-800'>Instructor: </span>Patrick Ashi</p>
                     </div>
+                </div>
+
+                <div className='flex justify-center'>
+                    <button className="bg-[#925FE2] text-white px-4 py-4 rounded-md mt-20 md:mt-10">
+                        <div className="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mr-1">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+
+                            <div>View All Courses</div>
+                        </div>
+                    </button>
                 </div>
             </div>
         </div>

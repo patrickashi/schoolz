@@ -18,21 +18,21 @@ const Sectwo = () => {
                     <h3
                     ref={ref}
                     className={`transition-opacity duration-1000 ease-in-out text-[#925FE2] font-bold mb-4  ${inView ? 'slide-in-from-left' : 'opacity-0'}`}>About Us</h3>
-                    <h2 className="text-3xl mb-4 md:text-4xl font-semibold">We are Experts Learning Institution</h2>
+                    <h2 className="text-3xl mb-4 md:text-4xl font-semibold text-gray-700">We are Experts Learning Institution</h2>
                     <p className="my-6 text-lg mt-20 md:mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus natus dicta et?</p>
 
-                    <h2 className="text-3xl mb-4 md:text-4xl font-semibold">Our Goal</h2>
+                    <h2 className="text-3xl mb-4 md:text-4xl font-semibold text-gray-700">Our Goal</h2>
                     <p className="my-6 text-lg mt-20 md:mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore dignissimos veritatis, dolorum nulla itaque nam molestias ducimus eum reiciendis,
                         voluptate reprehenderit modi, provident sit. Odio minima exercitationem maiores pariatur quos?
                     </p>
 
-                    <h2 className="text-3xl mb-4 md:text-4xl font-semibold">Our Mission</h2>
+                    <h2 className="text-3xl mb-4 md:text-4xl font-semibold text-gray-700">Our Mission</h2>
                     <p className="my-6 text-lg mt-20 md:mt-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ullam similique sint, perferendis vero deserunt, excepturi enim quibusdam
                         quos doloremque quidem explicabo beatae laborum ad perspiciatis, est fugiat dolores obcaecati.
                     </p>
 
-                    <h2 className="text-3xl mb-4 md:text-4xl font-semibold">Our vission</h2>
+                    <h2 className="text-3xl mb-4 md:text-4xl font-semibold text-gray-700">Our vission</h2>
                     
                     <p className="my-6 text-lg mt-20 md:mt-4">Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
