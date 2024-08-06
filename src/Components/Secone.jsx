@@ -15,12 +15,11 @@ const Secone = () => {
         <div className=" w-full pt-8 pb-24 px-2 md:px-10 lg:px-10 bg-indigo-50">
            <div className="flex flex-col md:flex-row justify-between items-center ">
                 <div className=" pt-20 px-2 md:px-10 lg:px-10 w-full md:w-120">
-                    <h2 className={`text-3xl text-gray-800  md:text-4xl font-semibold ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Education is the best</h2>
-                    <h2 className={`text-3xl text-gray-800 mb-10 md:text-4xl font-semibold ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Key Succes in Life.</h2>
+                    <h2 className={`text-3xl text-gray-800  md:text-4xl font-semibold ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Tomorrow belongs to </h2>
+                    <h2 className={`text-3xl text-gray-800 mb-10 md:text-4xl font-semibold ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>those who prepare for it today</h2>
                     
-                    <p className={`my-6 text-gray-800 text-xl mt-20 md:mt-4 ${showContent ? 'p-slide-in' : 'hidden-initially'}`}>Lorem ipsum dolor sit amet, consectetur 
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                         commodo viverra maecenas  vel facilisis.
+                    <p className={`my-6 text-gray-800 text-xl mt-20 md:mt-4 ${showContent ? 'p-slide-in' : 'hidden-initially'}`}>Our school fosters a love for learning and a commitment
+                        to excellence. We provide a nurturing environment where students thrive academically and creatively. Join us in shaping the future, one student at a time.
                     </p>
             
                     <button className="bg-[#925FE2] text-white px-4 py-4 rounded-md mt-20 md:mt-10">
