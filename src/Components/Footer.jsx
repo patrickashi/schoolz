@@ -10,7 +10,7 @@ const Footer = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
                         </svg>
 
-                        <h2 className="font-semibold text-xl ml-2 ">Starschoolz</h2>
+                        <h2 className="font-semibold text-xl ml-2 ">Osohtech</h2>
                     </div>
                 </div>
                 <div>
@@ -50,7 +50,7 @@ const Footer = () => {
 
             <div className="flex flex-col md:flex-row gap-2 md:gap-0 justify-between py-4 px-2 md:px-10 lg:px-16 text-xs bg-indigo-100">
                 <div>Pricacy Policy</div>
-                <div>© 2024 starschoolz. made by patrickpeko</div>
+                <div>© 2024 Osohtech. made by patrickpeko</div>
             </div>
         </div>
     )

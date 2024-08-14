@@ -31,7 +31,7 @@ const  Navbar = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
                         </svg>
 
-                        <h2 className=" font-semibold text-2xl  text-gray-800 ">Starschoolz</h2>
+                        <h2 className=" font-semibold text-2xl  text-gray-800 ">Ocohstech</h2>
                     </div>
                 </Link>
             </div>
@@ -87,7 +87,7 @@ const  Navbar = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
                     </svg>
 
-                    <h2 className="text-gray-800 font-semibold text-2xl">Starschoolz</h2>
+                    <h2 className="text-gray-800 font-semibold text-2xl">Osohtech</h2>
                 </div>
 
                 <ul className="flex flex-col p-4 my-6 gap-4 text-black">
