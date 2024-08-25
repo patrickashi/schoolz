@@ -2,6 +2,7 @@ import React from "react"
 import auditoriun from "../Assets/audutoriun.jpg";
 import classroom from "../Assets/classroom.jpeg";
 import Footer from "../Components/Footer";
+import schoolgate from "../Assets/schoolgate.jpg";
 
 
 const Aboutp = () => {
@@ -31,7 +32,7 @@ const Aboutp = () => {
                     </p>
                 </div>
                 <div className="w-full md:w-[600px]">
-                    <img src={classroom} className="w-full rounded-md" alt="img_" />
+                    <img src={schoolgate} className="w-full rounded-md" alt="img_" />
                 </div>
             </div>
 
