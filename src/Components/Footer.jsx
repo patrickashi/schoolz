@@ -42,8 +42,9 @@ const Footer = () => {
                     <ul className="flex flex-col gap-2">
                         <li>Bewo, Bekwarra</li>
                         <li>Cross River, Nigeria</li>
-                        <li>70-3890-5049</li>
-                        <li>ocohstech@gmail.com</li>
+                        <li>+234 818 432 7668</li>
+                        <li>+234 802 786 0306</li>
+                        <li>owocheschools@gmail.com </li>
                     </ul>
                 </div>
             </div>
