@@ -5,6 +5,7 @@ import Homep from "./Pages/Homep";
 import Aboutp from "./Pages/Aboutp";
 import Allcoursesp from "./Pages/Allcoursesp";
 import Contactp from "./Pages/Contactp";
+import Admissionp from "./Pages/Admissionp";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/aboutp" element={<Aboutp />} />
             <Route path="/allcoursesp" element={<Allcoursesp />} />
             <Route path="/contactp" element={<Contactp />} />
+            <Route path="/admissionp" element={<Admissionp />} />
           </Routes>
           
         </div>

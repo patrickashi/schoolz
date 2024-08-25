@@ -48,10 +48,7 @@ const  Navbar = () => {
                         <Link to="/allcoursesp">All Courses</Link>
                     </li>
                     <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Aboutusp">Blog Classic</Link>
-                    </li>
-                    <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Aboutusp">Pages</Link>
+                        <Link to="/admissionp">Admission</Link>
                     </li>
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/contactp">Contact</Link>
@@ -91,22 +88,19 @@ const  Navbar = () => {
                 </div>
 
                 <ul className="flex flex-col p-4 my-6 gap-4 text-black">
-                    <li className="p-4 border-l border-blue-600" onClick={() => { handleLinkClick() } }>
+                    <li className="p-4 border-l border-[#925FE2]" onClick={() => { handleLinkClick() } }>
                     <Link to="/">Home</Link>
                     </li>
-                    <li className="p-4 border-l border-green-600" onClick={() => { handleLinkClick() } }>
+                    <li className="p-4 border-l border-[#925FE2]" onClick={() => { handleLinkClick() } }>
                         <Link to="/aboutp">About Us</Link>
                     </li>
-                    <li className="p-4 border-l border-red-600" onClick={() => { handleLinkClick() } }>
+                    <li className="p-4 border-l border-[#925FE2]" onClick={() => { handleLinkClick() } }>
                         <Link to="/allcoursesp">All Courses</Link> 
                     </li>
-                    <li className="p-4 border-l border-red-600" onClick={() => { handleLinkClick() } }>
-                        <Link to="/Aboutusp">Blog</Link> 
+                    <li className="p-4 border-l border-[#925FE2]" onClick={() => { handleLinkClick() }}>
+                        <Link to="/admissionp">Admission</Link>
                     </li>
-                    <li className="p-4 border-l border-red-600" onClick={() => { handleLinkClick() } }>
-                        <Link to="/Aboutusp">Pages</Link> 
-                    </li>
-                    <li className="p-4 border-l border-pink-600" onClick={() => { handleLinkClick() }}>
+                    <li className="p-4 border-l border-[#925FE2]" onClick={() => { handleLinkClick() }}>
                         <Link to="/contactp">Contact</Link>
                     </li>
                 </ul>

@@ -12,7 +12,7 @@ const Secthree = () => {
             <div>
             
                 <div>
-                    <h2 className='px-2 text-4xl mt-10 text-start md:text-center'>Our Featured Courses</h2>
+                    <h2 className='px-2 text-4xl mt-10 text-start md:text-center'>Our Courses</h2>
                     <p className='px-2 md:px-10 py-4 text-start md:text-center mb-16 '>
                     Our featured courses provide a comprehensive curriculum designed to equip
                     students with the skills and knowledge necessary for success in their chosen fields.
