@@ -3,6 +3,7 @@ import './animations.css';
 import lovetolearn from "../Assets/lovetolearn.jpg";
 import arduino from "../Assets/Arduino.jpg";
 import books from "../Assets/books.jpg";
+import ocohstech_background from "../Assets/ocohstech_background.webp";
 
 const Secthree = () => {
 
@@ -22,7 +23,7 @@ const Secthree = () => {
                 {/* box1 */}
                 <div className="bg-white my-6 mx-2 md:mx-6 flex flex-col md:flex-row px-6 py-6 rounded-md">
                     <div>
-                        <img src={lovetolearn} className='w-full md:w-80 rounded-md' alt="img" />
+                        <img src={ocohstech_background} className='w-60 rounded-md' alt="img" />
                     </div>
                     <div className='w-full md:w-[500px] ml-0 md:ml-6 mt-6 md:mt-0 justify-start pt-6  '>
                         <button className='bg-[#925FE2] text-white px-4 py- flex justify-start '>Computer Science</button>
@@ -37,7 +38,7 @@ const Secthree = () => {
                  {/* box2 */}
                  <div className="bg-white my-6 mx-2 md:mx-6 flex flex-col md:flex-row px-6 py-6 rounded-md">
                     <div>
-                        <img src={books} className='w-full md:w-80 rounded-md' alt="img" />
+                        <img src={ocohstech_background} className='w-60 rounded-md' alt="img" />
                     </div>
                     <div className='w-full md:w-[500px] ml-0 md:ml-6 mt-6 md:mt-0 justify-start pt-2  '>
                         <button className='bg-[#925FE2] text-white px-4 flex justify-start '>Medical</button>
@@ -53,7 +54,7 @@ const Secthree = () => {
                  {/* box3 */}
                  <div className="bg-white my-6 mx-2 md:mx-6 flex flex-col md:flex-row px-6 py-6 rounded-md">
                     <div>
-                        <img src={lovetolearn} className='w-full md:w-80 rounded-md' alt="img" />
+                        <img src={ocohstech_background} className='w-60 rounded-md' alt="img" />
                     </div>
                     <div className='w-full md:w-[500px] ml-0 md:ml-6 mt-6 md:mt-0 justify-start pt-2  '>
                         <button className='bg-[#925FE2] text-white px-4 py- flex justify-start '>Medical</button>
@@ -68,7 +69,7 @@ const Secthree = () => {
                  {/* box4 */}
                  <div className="bg-white my-6 mx-2 md:mx-6 flex flex-col md:flex-row px-6 py-6 rounded-md">
                     <div>
-                        <img src={books} className='w-full md:w-80 rounded-md' alt="img" />
+                        <img src={ocohstech_background} className='w-60 rounded-md' alt="img" />
                     </div>
                     <div className='w-full md:w-[500px] ml-0 md:ml-6 mt-6 md:mt-0 justify-start pt-2  '>
                         <button className='bg-[#925FE2] text-white px-4 text-start '>Language Learning</button>
@@ -84,7 +85,7 @@ const Secthree = () => {
                  {/* box5 */}
                  <div className="bg-white my-6 mx-2 md:mx-6 flex flex-col md:flex-row px-6 py-6 rounded-md">
                     <div>
-                        <img src={arduino} className='w-full md:w-80 rounded-md' alt="img" />
+                        <img src={ocohstech_background} className='w-60 rounded-md' alt="img" />
                     </div>
                     <div className='w-full md:w-[500px] ml-0 md:ml-6 mt-6 md:mt-0 justify-start pt-2  '>
                         <button className='bg-[#925FE2] text-white px-4 '>Programming</button>
