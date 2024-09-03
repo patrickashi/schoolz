@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './animations.css';
-import pic2 from "../Assets/pic2.jpg";
 import { useInView } from 'react-intersection-observer';
 import ocohstech_background from "../Assets/ocohstech_background.webp";
 

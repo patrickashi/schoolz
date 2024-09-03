@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './animations.css';
-import lovetolearn from "../Assets/lovetolearn.jpg";
-import arduino from "../Assets/Arduino.jpg";
-import books from "../Assets/books.jpg";
 import ocohstech_background from "../Assets/ocohstech_background.webp";
 
 const Secthree = () => {

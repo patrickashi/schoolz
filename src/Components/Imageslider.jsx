@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import ocohstech_background from "../Assets/ocohstech_background.webp";
 import ocohstechlogo from "../Assets/ocohstechlogo.png";
+import schoolgate from "../Assets/schoolgate.jpg";
+import classroom from "../Assets/classroom.jpeg";
+import auditoriun from "../Assets/auditoriun.jpg";
 
 
-const images = [ocohstech_background, ocohstechlogo];
+const images = [ocohstech_background, schoolgate, classroom, ocohstechlogo, auditoriun];
 
 const Imageslider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,7 +31,7 @@ const Imageslider = () => {
   };
 
   return (
-    <div className="relative w-full h-screen overflow-hidden flex justify-center items-center ">
+    <div className="relative w-full h-80 overflow-hidden flex justify-center items-center ">
       <div className="absolute top-0 w-full md:w-[400px] h-full bg-cover bg-center transition-transform duration-1000 rounded-lg"
         style={{
           backgroundImage: `url(${images[currentIndex]})`,
