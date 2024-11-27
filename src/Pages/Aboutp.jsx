@@ -1,6 +1,4 @@
 import React from "react"
-import auditoriun from "../Assets/auditoriun.jpg";
-import classroom from "../Assets/classroom.jpeg";
 import Footer from "../Components/Footer";
 import schoolgate from "../Assets/schoolgate.jpg";
 import verificarion from "../Assets/verification.png";
