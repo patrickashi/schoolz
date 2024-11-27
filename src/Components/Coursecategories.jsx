@@ -23,30 +23,30 @@ const Coursecategories = () => {
             <div className='flex flex-col md:flex-row justify-evenly gap-10 md:gap-0'>
                 <div className=' shadow-md px-20 py-4 rounded-md'>
                     <img src={icon04} className=' md:w-40' alt="img" />
-                    <p className='text-center'>Computer Science(2)</p>
+                    <p className='text-center'>Community Health(2)</p>
                 </div>
                 <div className='shadow-md px-20 py-4 rounded-md'>
                     <img src={icon05} className=' md:w-40' alt="img" />
-                    <p className='text-center'>Medical(2)</p>
+                    <p className='text-center'>Community Health Extension Worker(CHEW)</p>
                 </div>
                 <div className='shadow-md px-20 py-4 rounded-md'>
                     <img src={graduationicon} className=' md:w-40' alt="img" />
-                    <p className='text-center'>Business & Logic(4)</p>
+                    <p className='text-center'>Junior Community Health Extension Worker(JCHEW)</p>
                 </div>
             </div>
 
             <div className='flex flex-col md:flex-row justify-evenly gap-10 md:gap-0 mt-10'>
                 <div className=' shadow-md px-20 py-4 rounded-md'>
                     <img src={icon01} className=' md:w-40' alt="img" />
-                    <p className='text-center'>Data Science(1)</p>
+                    <p className='text-center'>Medical Laboratory Science(1)</p>
                 </div>
                 <div className='shadow-md px-20 py-4 rounded-md'>
                     <img src={icon02} className=' md:w-40' alt="img" />
-                    <p className='text-center'>Language Learning(2)</p>
+                    <p className='text-center'>Pharmacy Technician(1)</p>
                 </div>
                 <div className='shadow-md px-20 py-4 rounded-md'>
                     <img src={icon03} className=' md:w-40' alt="img" />
-                    <p className='text-center'>Programming(5)</p>
+                    <p className='text-center'>Dispensary & Optpmetry Technician(1)</p>
                 </div>
             </div>
         </div>

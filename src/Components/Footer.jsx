@@ -14,26 +14,12 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <h1 className="font-bold mb-4">Popular Courses</h1>
+                    <h1 className="font-bold mb-4">Our Courses</h1>
                     <ul className="flex flex-col gap-2">
-                        <li>Algebra & Calculus</li>
-                        <li>Business Essentials</li>
-                        <li>Business Strategy</li>
-                        <li>Data Analysis</li>
-                        <li>English Learning</li>
-                        <li>History & Philosophy</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h1 className="font-bold mb-4">Course Categories</h1>
-                    <ul className="flex flex-col gap-2">
-                        <li>Computer Science</li>
-                        <li>Language Learning</li>
-                        <li>Math & Logic</li>
-                        <li>Arts & Humanities</li>
-                        <li>Business</li>
-                        <li>Data Science</li>
+                        <li>Community Health</li>
+                        <li>Medical Laboratory Science</li>
+                        <li>Pharmacy</li>
+                        <li>Dispensary & Optometry Tech (DOT)</li>
                     </ul>
                 </div>
                

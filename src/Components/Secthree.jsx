@@ -23,12 +23,11 @@ const Secthree = () => {
                         <img src={ocohstech_background} className='w-60 rounded-md' alt="img" />
                     </div>
                     <div className='w-full md:w-[500px] ml-0 md:ml-6 mt-6 md:mt-0 justify-start pt-6  '>
-                        <button className='bg-[#925FE2] text-white px-4 py- flex justify-start '>Computer Science</button>
-                        <p className='mt-2 font-semibold text-start text-md'>Software Development</p>
-                        <p className='mt-2 text-start'>Software development involves the process of designing, creating, testing,
-                            and maintaining software applications to meet specific user needs and solve problems.
+                        <button className='bg-[#925FE2] text-white px-4 py- flex justify-start '>Medical</button>
+                        <p className='mt-2 font-semibold text-start text-md'>Community Health</p>
+                        <p className='mt-2 text-start'>Community Health focuses on promoting and protecting the health of populations through education, prevention, and health services. It equips students with skills to address public health issues, implement programs, and improve overall community well-being.
                         </p>
-                        <p className='text-start mt-4 text-[#925FE2]'><span className='font-semibold text-gray-800'>Instructor:</span> Alan Smith</p>
+                        <p className='text-start mt-4 text-[#925FE2]'><span className='font-semibold text-gray-800'>HOD:</span></p>
                     </div>
                 </div>
 
@@ -39,12 +38,10 @@ const Secthree = () => {
                     </div>
                     <div className='w-full md:w-[500px] ml-0 md:ml-6 mt-6 md:mt-0 justify-start pt-2  '>
                         <button className='bg-[#925FE2] text-white px-4 flex justify-start '>Medical</button>
-                        <p className='mt-2 font-semibold text-start text-md'>Public Health </p>
-                        <p className='mt-2 text-start'>Public health focuses on improving and protecting the health of
-                            populations through research, policy-making, and programs that address issues such as disease prevention,
-                            health education, and access to healthcare services.
+                        <p className='mt-2 font-semibold text-start text-md'>Medical Laboratory Science </p>
+                        <p className='mt-2 text-start'>Medical Laboratory Science trains students to analyze human samples for diagnosing and treating diseases. It combines theory with hands-on practice in areas like microbiology, hematology, and clinical chemistry, preparing graduates for vital roles in healthcare and research.
                         </p>
-                        <p className='text-start mt-4 text-[#925FE2]'><span className='font-semibold text-gray-800'>Instructor: </span>John Doe</p>
+                        <p className='text-start mt-4 text-[#925FE2]'><span className='font-semibold text-gray-800'>HOD: </span></p>
                     </div>
                 </div>
 
@@ -55,11 +52,12 @@ const Secthree = () => {
                     </div>
                     <div className='w-full md:w-[500px] ml-0 md:ml-6 mt-6 md:mt-0 justify-start pt-2  '>
                         <button className='bg-[#925FE2] text-white px-4 py- flex justify-start '>Medical</button>
-                        <p className='mt-2 font-semibold text-start text-md'>Laboratory Science</p>
-                        <p className='mt-2 text-start'>Laboratory science involves the study and application of scientific principles
-                            and techniques in a controlled environment to analyze samples, conduct experiments, and support medical diagnoses and research.
+                        <p className='mt-2 font-semibold text-start text-md'>Pharmacy</p>
+                        <p className='mt-2 text-start'>Pharmacy focuses on the study of drugs and their effects, preparing students to dispense
+                            medications and counsel patients. It combines science and healthcare to ensure safe and effective use of medicines,
+                            contributing to improved patient outcomes.
                         </p>
-                        <p className='text-start mt-4 text-[#925FE2]'><span className='font-semibold text-gray-800'>Instructor:</span> Adam Smith</p>
+                        <p className='text-start mt-4 text-[#925FE2]'><span className='font-semibold text-gray-800'>HOD:</span></p>
                     </div>
                 </div>
 
@@ -69,31 +67,16 @@ const Secthree = () => {
                         <img src={ocohstech_background} className='w-60 rounded-md' alt="img" />
                     </div>
                     <div className='w-full md:w-[500px] ml-0 md:ml-6 mt-6 md:mt-0 justify-start pt-2  '>
-                        <button className='bg-[#925FE2] text-white px-4 text-start '>Language Learning</button>
-                        <p className='mt-2 font-semibold text-start text-md'>Use of English</p>
-                        <p className='mt-2 text-start'>English learning encompasses the process of acquiring proficiency in reading,
-                            writing, speaking, and understanding the English language, aiming to enhance communication skills,
-                            comprehension, and cultural literacy.
+                        <button className='bg-[#925FE2] text-white px-4 text-start '>Medical</button>
+                        <p className='mt-2 font-semibold text-start text-md'>Dispensary & Optometry Technician</p>
+                        <p className='mt-2 text-start'>This course trains students to assist in dispensing medications and providing basic eye care services.
+                            It combines skills in pharmacy support and optometry to prepare graduates for roles in healthcare settings.
                         </p>
-                        <p className='text-start mt-4 text-[#925FE2]'><span className='font-semibold text-gray-800'>Instructor:</span> Osha Aniseya</p>
+                        <p className='text-start mt-4 text-[#925FE2]'><span className='font-semibold text-gray-800'>HOD:</span></p>
                     </div>
                 </div>
 
-                 {/* box5 */}
-                 <div className="bg-white my-6 mx-2 md:mx-6 flex flex-col md:flex-row px-6 py-6 rounded-md">
-                    <div>
-                        <img src={ocohstech_background} className='w-60 rounded-md' alt="img" />
-                    </div>
-                    <div className='w-full md:w-[500px] ml-0 md:ml-6 mt-6 md:mt-0 justify-start pt-2  '>
-                        <button className='bg-[#925FE2] text-white px-4 '>Programming</button>
-                        <p className='mt-2 font-semibold text-start text-md'>Arduino Programming</p>
-                        <p className='mt-2 text-start'>Arduino programming involves writing code to control and interface
-                            with Arduino microcontrollers, enabling the creation of interactive electronic projects by
-                            integrating sensors, actuators, and other hardware components.
-                        </p>
-                        <p className='text-start mt-4 text-[#925FE2]'><span className='font-semibold text-gray-800'>Instructor: </span>Patrick Ashi</p>
-                    </div>
-                </div>
+                
 
                 <div className='flex justify-start md:justify-center '>
                     <button className="bg-[#925FE2] text-white px-4 py-4 rounded-md mt-20 md:mt-10 ml-2 md:ml-0">

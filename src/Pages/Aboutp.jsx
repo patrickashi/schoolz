@@ -4,6 +4,7 @@ import classroom from "../Assets/classroom.jpeg";
 import Footer from "../Components/Footer";
 import schoolgate from "../Assets/schoolgate.jpg";
 import verificarion from "../Assets/verification.png";
+import ict_building from "../Assets/ict_building.jpg";
 
 
 const Aboutp = () => {
@@ -39,7 +40,7 @@ const Aboutp = () => {
 
            <div className="flex flex-col md:flex-row my-20 justify-between px-2 md:px-10 lg:px-16 gap-8 items-center">
                 <div className="w-full md:w-[600px] hidden md:block">
-                    <img src={auditoriun} className="w-full rounded-md" alt="img_" />
+                    <img src={ict_building} className="w-full rounded-md" alt="img_" />
                 </div>
                 <div className="w-full md:w-[600px] flex items-center ">
                     <p className="text-left md:text-left">
@@ -51,7 +52,7 @@ const Aboutp = () => {
                     </p>
                 </div>
                 <div className="w-full md:w-[600px] block md:hidden " >
-                    <img src={auditoriun} className="w-full rounded-md" alt="img_" />
+                    <img src={ict_building} className="w-full rounded-md" alt="img_" />
                 </div>
             </div>
 
