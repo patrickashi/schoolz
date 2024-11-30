@@ -1,4 +1,5 @@
 import React from "react"
+import Admissionbutton from "../Components/Admissionbutton";
 
 
 const Admissionp = () => {
@@ -8,6 +9,10 @@ const Admissionp = () => {
                 <div className="absolute w-full h-full bg-[#925FE2]">
                     <h1 className="text-white font-bold animate-pulse text-4xl mt-40 md:mt-20 ml-6">Admission</h1>
                 </div>
+           </div>
+
+           <div>
+                <Admissionbutton />
            </div>
         </div>
     )
