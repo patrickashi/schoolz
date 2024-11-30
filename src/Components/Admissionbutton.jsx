@@ -27,7 +27,7 @@ const Admissionbutton = () => {
 
   return (
     <div className='mt-10'>
-        <a href='https://paystack.com/pay/admissionformpurchase'>
+        <a href='https://paystack.com/pay/admissionformpurchase'className='ml-4'>
             <button
                 //   onClick={() => initializePayment(onSuccess, onClose)}
                 className="bg-[#925FE2] hover:bg-[#925FE2] text-white font-bold py-2 px-4 rounded"
