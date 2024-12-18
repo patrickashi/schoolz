@@ -12,6 +12,7 @@ const Admissionform = () => {
     phoneNumber: '',
     guardiansPhoneNumber: '',
     address: '',
+    student_id: '', // Added student_id to the form data
   });
 
   const courseOptions = [
@@ -21,25 +22,35 @@ const Admissionform = () => {
     'Dispensary & Oprometry Technician',
   ];
 
+  // Function to generate 8-digit student ID
+  const generateStudentId = () => {
+    return Math.floor(10000000 + Math.random() * 90000000).toString();
+  };
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Generate student ID before submitting the form
+    const generatedStudentId = generateStudentId();
+    const formDataWithId = { ...formData, student_id: generatedStudentId };
+
     try {
-      const response = await fetch('https://ocohstech.onrender.com/api/submit-admission-form/', {
+      const response = await fetch('http://127.0.0.1:8000/api/submit-admission-form/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'X-CSRFToken': getCookie('csrftoken'),
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(formDataWithId), // Send the student_id with the form data
       });
 
       if (response.ok) {
-        alert('Form submitted successfully!');
-        navigate('/');
+        alert('Your student ID has been sent to your email.');
+        navigate('/'); // Redirect after submission
       } else {
         throw new Error('Form submission failed');
       }

@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
 import { Link } from "react-router-dom";
 import ocohstechlogo from "../Assets/ocohstechlogo.png";
+import old_school_logo from "../Assets/old_school_logo.png";
 
 
 
@@ -25,7 +26,7 @@ const  Navbar = () => {
         <div className="flex justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-6 bg-white  text-black">
             <div>
                 <Link to="/">
-                    <img className="w-20" src={ocohstechlogo}  size={20} alt="logo" />
+                    <img className="w-20" src={old_school_logo}  size={20} alt="logo" />
                 </Link>
             </div>
             
