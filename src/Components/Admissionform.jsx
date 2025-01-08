@@ -39,7 +39,7 @@ const Admissionform = () => {
     const formDataWithId = { ...formData, reg_number: generatedStudentId };
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/submit-admission-form/', {
+      const response = await fetch('https://ocohstech.onrender.com/api/submit-admission-form/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
