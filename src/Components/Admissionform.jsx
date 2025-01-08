@@ -12,7 +12,7 @@ const Admissionform = () => {
     phoneNumber: '',
     guardiansPhoneNumber: '',
     address: '',
-    student_id: '', // Added student_id to the form data
+    reg_number: '', // Added reg number to the form data
   });
 
   const courseOptions = [
@@ -36,10 +36,10 @@ const Admissionform = () => {
 
     // Generate student ID before submitting the form
     const generatedStudentId = generateStudentId();
-    const formDataWithId = { ...formData, student_id: generatedStudentId };
+    const formDataWithId = { ...formData, reg_number: generatedStudentId };
 
     try {
-      const response = await fetch('https://ocohstech.onrender.com/api/submit-admission-form/', {
+      const response = await fetch('http://127.0.0.1:8000/api/submit-admission-form/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -49,7 +49,7 @@ const Admissionform = () => {
       });
 
       if (response.ok) {
-        alert('Your student ID has been sent to your email.');
+        alert('Your Reg Number has been sent to your email.');
         navigate('/'); // Redirect after submission
       } else {
         throw new Error('Form submission failed');
