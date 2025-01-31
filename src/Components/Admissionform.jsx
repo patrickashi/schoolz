@@ -15,6 +15,8 @@ const Admissionform = () => {
     reg_number: '', // Added reg number to the form data
   });
 
+  const [loading, setLoading] = useState(false); // State to track form submission
+
   const courseOptions = [
     'Community Health',
     'Medical Laboratory Science',
@@ -33,6 +35,7 @@ const Admissionform = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true); // Show loading indicator
 
     // Generate student ID before submitting the form
     const generatedStudentId = generateStudentId();
@@ -57,6 +60,8 @@ const Admissionform = () => {
     } catch (error) {
       console.error('Error:', error);
       alert('An error occurred. Please try again.');
+    } finally {
+      setLoading(false); // Hide loading indicator after submission
     }
   };
 
@@ -135,9 +140,17 @@ const Admissionform = () => {
             </div>
 
             <div className="flex items-center justify-between">
-                <button type="submit" className="bg-[#925FE2] hover:bg-[#8459c9] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                Submit
-                </button>
+                <button type="submit" disabled={loading} className="bg-[#925FE2] hover:bg-[#8459c9] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline flex items-center">
+                {loading ? (
+                  <>
+                    <svg className="animate-spin h-5 w-5 mr-2 text-white" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+                    </svg>
+                    Submitting...
+                  </>
+                ) : "Submit"}
+              </button>
             </div>
         </form>
     </div>
