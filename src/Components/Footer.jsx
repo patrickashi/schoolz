@@ -30,14 +30,14 @@ const Footer = () => {
                         <li>Cross River, Nigeria</li>
                         <li>+234 818 432 7668</li>
                         <li>+234 802 786 0306</li>
-                        <li>owocheschools@gmail.com </li>
+                        <li>ocohstech@gmail.com </li>
                     </ul>
                 </div>
             </div>
 
             <div className="flex flex-col md:flex-row gap-2 md:gap-0 justify-between py-4 px-2 md:px-10 lg:px-16 text-xs bg-indigo-100">
                 <div>Pricacy Policy</div>
-                <div>© 2024 Ocohstech</div>
+                <div>©2025 Ocohstech</div>
             </div>
         </div>
     )
